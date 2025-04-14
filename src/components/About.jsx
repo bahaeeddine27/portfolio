@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
-          alt='web-development'
+          alt='développement-web'
           className='w-16 h-16 object-contain'
         />
 
@@ -40,21 +40,20 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Vue d'ensemble.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Développeur Full-Stack passionné, avec une expertise en <strong>JavaScript, PHP, React.js, Node.js</strong> et <strong>Laravel</strong>.
+        Curieux, créatif et motivé, je m'investis dans la création de solutions web performantes et sécurisées pour résoudre des problématiques réelles.
+        J'aime collaborer avec les équipes pour apporter des idées innovantes et enrichir des projets ambitieux.
+        Toujours en quête d’apprentissage, je me spécialise aussi dans les <strong>systèmes d’information et la sécurité</strong> (Master 2).
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

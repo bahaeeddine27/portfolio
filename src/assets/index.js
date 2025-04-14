@@ -1,7 +1,6 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -16,25 +15,25 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import php from "./tech/php.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import kebchi from "./company/kebchi.png";
+import lasource from "./company/lasource.png";
+import medasys from "./company/medasys.png";
+import technomis from "./company/technomis.png";
+import digitsell from "./company/digitsell.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import digitselll from "./digitselll.png";
+import calculator from "./calculator.png";
+import texttovoice from "./texttovoice.png";
 
 export {
   logo,
   backend,
   creator,
-  mobile,
   web,
   github,
   menu,
@@ -44,19 +43,20 @@ export {
   figma,
   git,
   html,
+  php,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  kebchi,
+  lasource,
+  medasys,
+  technomis,
+  digitsell,
+  digitselll,
+  calculator,
+  texttovoice,
 };
